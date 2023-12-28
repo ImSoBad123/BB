@@ -24,6 +24,8 @@
                 game.Workspace.Map.Ocean:FindFirstChild("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
             elseif game.Workspace.Map:FindFirstChild("Underworld") then
                 game.Workspace.Map.Underworld:FindFirstChild("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            elseif game.Workspace.Map:FindFirstChild("Jungle") then
+                game.Workspace.Map.Jumgle:FindFirstChild("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
             else
             print("ko thay map")
             end
