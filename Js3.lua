@@ -1,0 +1,31 @@
+if game.Workspace.Map:FindFirstChild("Arena") then
+    game.Workspace.Map.Arena:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Quarry") then
+    game.Workspace.Map.Quarry:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("RingOfFire") then
+    game.Workspace.Map.RingOfFire:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Desert") then
+    game.Workspace.Map.Desert:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Classic_V2") then
+    game.Workspace.Map.Classic_V2:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Heaven") then
+    game.Workspace.Map.Heaven:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Height_Fight") then
+    game.Workspace.Map.Height_Fight:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("WinterCountryside") then
+    game.Workspace.Map.WinterCountryside:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Enchanted_Desert") then
+    game.Workspace.Map.Enchanted_Desert:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("PolarExpress") then
+    game.Workspace.Map.PolarExpress:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Grassy_Classic") then
+    game.Workspace.Map.Grassy_Classic:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Ocean") then
+    game.Workspace.Map.Ocean:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Underworld") then
+    game.Workspace.Map.Underworld:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+elseif game.Workspace.Map:FindFirstChild("Jungle") then
+    game.Workspace.Map.Jumgle:GetChildren("Sock").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+else
+print("ko thay map")
+end
