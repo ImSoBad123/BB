@@ -88,6 +88,13 @@ elseif game.Workspace.Map:FindFirstChild("Classic") then
             child.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
         end
     end
+elseif game.Workspace.Map:FindFirstChild("Olympus") then
+    for _, child in ipairs(game.Workspace.Map.Olympus:GetChildren()) do
+        if child.Name == "Sock" then
+            child.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        end
+    end
 else
 print("ko thay map")
 end
+--Olympus
