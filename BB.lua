@@ -37,4 +37,17 @@ spawn(function()
     end)
 end)
 
+local Tab2 = Window:MakeTab({
+	Name = "Auto Parry Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab2:AddButton({
+	Name = "Bedol",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+  	end    
+})
+
 OrionLib:Init()
